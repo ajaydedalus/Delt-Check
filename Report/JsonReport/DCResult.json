@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-31T13:23:16.559Z",
+        "line": 25,
+        "name": "",
+        "description": "To validate the lims login with valid username and password",
+        "id": "verifying-the-lims-web-page;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14927022300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the lims login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_lims_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389103300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid \"VM\"and\"Pas123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VM\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Pas123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59011400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30275265700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the menu",
+            "match": {
+              "location": "StepDefinition.user_click_the_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10327115800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the order entry",
+            "match": {
+              "location": "StepDefinition.user_click_the_order_entry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15632438600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter valid \"patient\",\"search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"patient\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"search\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.user_enter_valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5234278400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click the search button",
+            "match": {
+              "location": "StepDefinition.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17775772200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click the New order button",
+            "match": {
+              "location": "StepDefinition.user_click_the_New_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput aria-autocomplete\u003d\"list\" type\u003d\"text\" autocorrect\u003d\"off\" autocapitalize\u003d\"off\" autocomplete\u003d\"ad9ad19f2a02\"\u003e is not clickable at point (99, 354). Other element would receive the click: \u003cdiv class\u003d\"mat-tooltip-trigger normal ng-star-inserted\" style\u003d\"padding-left: 10px; width: 50%;\" aria-describedby\u003d\"cdk-describedby-message-wte-1-644\" cdk-describedby-host\u003d\"wte-1\"\u003e...\u003c/div\u003e\n  (Session info: MicrosoftEdge\u003d107.0.1418.26)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027DHHCLBX5PFB3\u0027, ip: \u0027192.168.220.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_341\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [59b26e2f1d70fa0256592089a38f227d, clickElement {id\u003d46a04724-bf98-419d-ae10-163b0033f72d}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.26, ms:edgeOptions: {debuggerAddress: localhost:62993}, msedge: {msedgedriverVersion: 107.0.1418.26 (801aa30e9054..., userDataDir: C:\\Users\\xvd71\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62993/devtoo..., se:cdpVersion: 107.0.1418.26, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: msedge on WINDOWS (59b26e2f1d70fa0256592089a38f227d)] -\u003e xpath: (//input[@type\u003d\u0027text\u0027])[5]]\nSession ID: 59b26e2f1d70fa0256592089a38f227d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat lims.DcStepdefinition.StepDefinition.user_click_patient_catagory(StepDefinition.java:118)\r\n\tat ✽.user click patient catagory(file:/C:/Users/xvd71/eclipse-workspace/DeltaCheck/src/test/resources/Feature/Deltacheck.feature:13)\r\n",
+              "duration": 25816611200,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user click patient catagory",
+            "match": {
+              "location": "StepDefinition.user_click_patient_catagory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click the result",
+            "match": {
+              "location": "StepDefinition.user_click_the_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter the result",
+            "match": {
+              "location": "StepDefinition.user_enter_the_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user enter the \"patient\",\"Familyname\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"patient\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Familyname\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user click the Search button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10200,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User click the new order button",
+            "match": {
+              "location": "StepDefinition.user_click_the_new_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click Patient Catagory",
+            "match": {
+              "location": "StepDefinition.user_click_Patient_Catagory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17400,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user click the Result",
+            "match": {
+              "location": "StepDefinition.user_click_the_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter the Result",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Lims web page",
+    "description": "",
+    "id": "verifying-the-lims-web-page",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/xvd71/eclipse-workspace/DeltaCheck/src/test/resources/Feature/Deltacheck.feature",
+    "tags": []
+  }
+]
